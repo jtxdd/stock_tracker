@@ -1,0 +1,51 @@
+{
+  "name": "stocktrackerapp",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "webpack && node server.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "body-parser": "^1.19.0",
+    "css-loader": "^3.2.1",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mongodb": "^3.3.4",
+    "mongoose": "^5.7.13",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-debounce-input": "^3.2.2",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "timeago-react": "^3.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "cors": "^2.8.5",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
